@@ -14,7 +14,7 @@ const Discover = () =>{
     const {data, isFetching, error} = useGetTopChartsQuery();
    if (isFetching) return <Loader title = "loading songs..." />
    if(error) return <Error />
-     console.log(data[3])
+  
   
 return(
     <div className="flex flex-col">
