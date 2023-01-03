@@ -1,5 +1,7 @@
 const Searchbar = () => (
-  <div>Loader</div>
+  <div>
+    <h1 className="text-white">Hello I am here dont worry</h1>
+  </div>
 );
 
 export default Searchbar;

@@ -48,7 +48,7 @@ const TopPlay = () => {
  const divRef = useRef(null);
  const topPlays = data?.slice(0, 5);
 
- console.log(topPlays)
+
 
 
 const handlePlayClick = (song, i)=>{
